@@ -7,11 +7,13 @@ namespace MyTestProject
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            GetCat();
         }
 
         static void GetCat()
         {
             Console.WriteLine("THis is my Cat!");
+            GetDog();
         }
 
         static void GetDog()
