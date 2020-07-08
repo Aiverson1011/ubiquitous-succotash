@@ -13,5 +13,10 @@ namespace MyTestProject
         {
             Console.WriteLine("THis is my Cat!");
         }
+
+        static void GetDog()
+        {
+            Console.WriteLine("This is my dog");
+        }
     }
 }
